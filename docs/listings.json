@@ -1,0 +1,101 @@
+[
+  {
+    "listing": "/02-portfolio/02_01-publications.html",
+    "items": [
+      "/02-portfolio/02_01-publications/post-with-code/index.html",
+      "/02-portfolio/02_01-publications/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/02-portfolio/02_02-work.html",
+    "items": [
+      "/02-portfolio/02_02-work/post-with-code/index.html",
+      "/02-portfolio/02_02-work/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/02-portfolio/02_03-personal-projects.html",
+    "items": [
+      "/02-portfolio/02_03-personal-projects/post-with-code/index.html",
+      "/02-portfolio/02_03-personal-projects/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/02-portfolio/02_04-plans-and-designs.html",
+    "items": [
+      "/02-portfolio/02_04-plans-and-designs/post-with-code/index.html",
+      "/02-portfolio/02_04-plans-and-designs/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/02-portfolio/02_05-achievements.html",
+    "items": []
+  },
+  {
+    "listing": "/02-portfolio.html",
+    "items": [
+      "/02-portfolio/02_01-publications.html",
+      "/02-portfolio/02_02-work.html",
+      "/02-portfolio/02_03-personal-projects.html",
+      "/02-portfolio/02_04-plans-and-designs.html",
+      "/02-portfolio/02_05-achievements.html"
+    ]
+  },
+  {
+    "listing": "/03-reading/03_01-academic.html",
+    "items": [
+      "/03-reading/03_01-academic/post-with-code/index.html",
+      "/03-reading/03_01-academic/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/03-reading/03_02-fiction.html",
+    "items": [
+      "/03-reading/03_02-fiction/post-with-code/index.html",
+      "/03-reading/03_02-fiction/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/03-reading/03_03-other.html",
+    "items": [
+      "/03-reading/03_03-other/post-with-code/index.html",
+      "/03-reading/03_03-other/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/03-reading.html",
+    "items": [
+      "/03-reading/03_01-academic.html",
+      "/03-reading/03_02-fiction.html",
+      "/03-reading/03_03-other.html"
+    ]
+  },
+  {
+    "listing": "/04-tutorials.html",
+    "items": [
+      "/04-tutorials/04_01-making-a-quarto-website/index.html",
+      "/04-tutorials/04_02-setting-up-docker/index.html"
+    ]
+  },
+  {
+    "listing": "/05-reference.html",
+    "items": [
+      "/05-reference/05_01-key-yaml/index.html",
+      "/05-reference/05_02-yaml-top-tips/index.html"
+    ]
+  },
+  {
+    "listing": "/06-events.html",
+    "items": [
+      "/06-events/shifting-borders/index.html",
+      "/06-events/ICNC/index.html"
+    ]
+  },
+  {
+    "listing": "/07-blog.html",
+    "items": [
+      "/07-blog/post-with-code/index.html",
+      "/07-blog/welcome/index.html"
+    ]
+  }
+]

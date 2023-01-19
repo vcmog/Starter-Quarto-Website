@@ -1,0 +1,20 @@
+---
+title: Making a Quarto website
+title-block-banner: true
+jupyter: python3
+---
+
+::: {
+
+![](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
+
+:::
+
+Essentially, I just made this website to include as many of the template features in the YAML as possible.
+
+So you are free to take whatever features and make your own website from here.
+
+The main Quarto webpage also 
+
+
+

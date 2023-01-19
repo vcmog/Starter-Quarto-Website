@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "01-current-work.html",
+    "href": "01-current-work.html",
+    "title": "Making a website",
+    "section": "",
+    "text": "I am currently creating a website using a template as a starting point.\n\nThings to Consider\n\nPurpose and goals\nTarget audience and user experience\nDesign and layout\nContent and information\n\n\n\nOutcomes\nI hope to establish a digital presence that includes:\n\nAn overview of my work\nAn online portfolio\nA summary of papers I’ve read\nA list of guides\nA journal of events I attended\nA blog\n\n\n\nInfluences\nMy website project has been influenced by other professional websites, design trends, feedback and my personal style.\n\n\n  \n  \n  \n    \n     Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github"
+  },
+  {
+    "objectID": "02-portfolio/02_01-publications/post-with-code/index.html",
+    "href": "02-portfolio/02_01-publications/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "02-portfolio/02_01-publications/welcome/index.html",
+    "href": "02-portfolio/02_01-publications/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "02-portfolio/02_01-publications.html",
+    "href": "02-portfolio/02_01-publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "02-portfolio/02_02-work/post-with-code/index.html",
+    "href": "02-portfolio/02_02-work/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "02-portfolio/02_02-work/welcome/index.html",
+    "href": "02-portfolio/02_02-work/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "02-portfolio/02_02-work.html",
+    "href": "02-portfolio/02_02-work.html",
+    "title": "Work",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "02-portfolio/02_03-personal-projects/post-with-code/index.html",
+    "href": "02-portfolio/02_03-personal-projects/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "02-portfolio/02_03-personal-projects/welcome/index.html",
+    "href": "02-portfolio/02_03-personal-projects/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "02-portfolio/02_03-personal-projects.html",
+    "href": "02-portfolio/02_03-personal-projects.html",
+    "title": "Personal Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "02-portfolio/02_04-plans-and-designs/post-with-code/index.html",
+    "href": "02-portfolio/02_04-plans-and-designs/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "02-portfolio/02_04-plans-and-designs/welcome/index.html",
+    "href": "02-portfolio/02_04-plans-and-designs/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "02-portfolio/02_04-plans-and-designs.html",
+    "href": "02-portfolio/02_04-plans-and-designs.html",
+    "title": "Plans and Designs",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "02-portfolio/02_05-achievements/post-with-code/index.html",
+    "href": "02-portfolio/02_05-achievements/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "02-portfolio/02_05-achievements/welcome/index.html",
+    "href": "02-portfolio/02_05-achievements/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "02-portfolio/02_05-achievements.html",
+    "href": "02-portfolio/02_05-achievements.html",
+    "title": "Achievements",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "02-portfolio.html#welcome-to-my-portfolio",
+    "href": "02-portfolio.html#welcome-to-my-portfolio",
+    "title": "Portfolio",
+    "section": "Welcome to my Portfolio",
+    "text": "Welcome to my Portfolio\nThank you for visiting my portfolio website. Here you will find a collection of my work, publications, personal projects, plans and designs, and achievements.\n\nPublications\nOn this page, you will find a list of any publications I have written, such as articles or research papers.\n\n\nWork\nThis page showcases my professional work experience, including projects and job responsibilities.\n\n\nPersonal Projects\nThis page displays any personal projects I have undertaken, such as hobby projects or side hustles.\n\n\nPlans and Designs\nHere you will find a collection of any plans or designs I have created, such as architectural plans or product designs.\n\n\nAchievements\nThis page highlights any notable accomplishments or awards I have received throughout my career.\nI hope you enjoy browsing through my portfolio. Feel free to contact me if you have any questions or want to connect.\n\n\n\n\n\n\n\n\n\n\n\n\nPublications\n\n\n\n\nWork\n\n\n\n\nPersonal Projects\n\n\n\n\nPlans and Designs\n\n\n\n\nAchievements\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "03-reading/03_01-academic/post-with-code/index.html",
+    "href": "03-reading/03_01-academic/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "03-reading/03_01-academic/welcome/index.html",
+    "href": "03-reading/03_01-academic/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "03-reading/03_01-academic.html",
+    "href": "03-reading/03_01-academic.html",
+    "title": "Academic",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "03-reading/03_02-fiction/post-with-code/index.html",
+    "href": "03-reading/03_02-fiction/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "03-reading/03_02-fiction/welcome/index.html",
+    "href": "03-reading/03_02-fiction/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "03-reading/03_02-fiction.html",
+    "href": "03-reading/03_02-fiction.html",
+    "title": "Fiction",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "03-reading/03_03-other/post-with-code/index.html",
+    "href": "03-reading/03_03-other/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "03-reading/03_03-other/welcome/index.html",
+    "href": "03-reading/03_03-other/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "03-reading/03_03-other.html",
+    "href": "03-reading/03_03-other.html",
+    "title": "Other",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "03-reading.html",
+    "href": "03-reading.html",
+    "title": "Reading",
+    "section": "",
+    "text": "Here I like to write summaries of things I’ve read. For future reference and to help me remember them…\n\n\n\n\n\n\n\n\n\n\n\nAcademic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiction\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOther\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "04-tutorials/04_01-making-a-quarto-website/index.html",
+    "href": "04-tutorials/04_01-making-a-quarto-website/index.html",
+    "title": "Making a Quarto website",
+    "section": "",
+    "text": "Essentially, I just made this website to include as many of the template features in the YAML as possible.\nSo you are free to take whatever features and make your own website from here."
+  },
+  {
+    "objectID": "04-tutorials/04_02-setting-up-docker/index.html",
+    "href": "04-tutorials/04_02-setting-up-docker/index.html",
+    "title": "Setting up Docker",
+    "section": "",
+    "text": "Content"
+  },
+  {
+    "objectID": "04-tutorials.html",
+    "href": "04-tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMaking a Quarto website\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up Docker\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "05-reference/05_01-key-yaml/index.html",
+    "href": "05-reference/05_01-key-yaml/index.html",
+    "title": "YAML options",
+    "section": "",
+    "text": "Here I summarise the Quarto docs, saying which bits were useful to me…\n\n\n\nAuthoring - Markdown basics\n::: content ::: -> <div> <p> content </p> <div>\n\n\nAsking CHATGPT about this notation…\n\n\n\nME: do you know what ::: is? Maybe related to markdown.\nCHATGPT: The “:::” is often used in markdown as a way to create a horizontal rule, which is a line that separates content on a webpage or document. It is used to visually break up sections of content and make them easier to read. It is supported by many markdown parsers and can be used in many different platforms like Github, Jupyter notebook, etc.\nME: is it related to breaks between cells in notebooks?\nCHATGPT: No, the “:::” is not typically used to indicate breaks between cells in notebooks. Notebooks, such as Jupyter, use specific syntax to separate code cells, such as using “—” or “***” in markdown cells or using “#%%” in code cells.\nIt’s not a standard syntax, but some people use it as a way to separate cells in jupyter notebook but it is not officially supported and different from the standard way which is using the command “—” or “***” in markdown cell or using “#%%” in code cells.\n\n\nhttps://quarto.org/docs/authoring/markdown-basics.html\n\n\nAuthoring - Article Layout\n\n.column-body-outset\n.column-page-inset\n.column-page\n.column-screen-inset\n.column-screen\n\n\n\n\nalso can put direction on the end -right or -left.\nUsing the margin:\n\ncan put footnotes, citations and asides in the margin too.\ncan also put like figures and stuff in the margin.\n\nhttps://quarto.org/docs/authoring/article-layout.html\n\n\nNavigation\n\nOverview\nTop Navigation\nSide Navigation\nHybrid Navigation\nPage Navigation\nPage Footer\nHiding Navigation\nReader Mode\nSite Search\nGitHub Links\nRedirects\n404 Pages\n\nhttps://quarto.org/docs/websites/website-navigation.html\n\n\nDocument Listings (make a structured list of things on a web page)\n\nListing Contents (a whole folder, or specific files/folders)\nListing Options\n\nDefault\nGrids\nTables\n\nUser Tools\n\nSorting dropdown\nFiltering dropdown\nPagination (showing a finite number pf posts at once and splitting the list of posts over multiple pages)\n\nListing Location (e.g. listing sandwiched between texts)\n\nMultiple Listings\n\nListing Fields (e.g. [image, date, title, author, reading-time])\n\nCustomizing Fields\n\nListing Sorting and Tags\n\nhttps://quarto.org/docs/websites/website-listings.html\n\n\nExtra on Listings\n\nListing templates (In addition to the 3 built in types of listings can make custom listings)\nDealing with listing metadata and customising it\nPoints to the gallery to show examples of quarto websites\n\nhttps://quarto.org/docs/websites/website-listings-custom.html\n\n\nPage Layout\n\npage-layout (article, full, custom)\n\nin custom, can make grid with different column widths\n\n\nhttps://quarto.org/docs/output-formats/page-layout.html#custom\n\n\nThemes\nhttps://quarto.org/docs/output-formats/html-themes.html\n\n\nExtra Website Things\n\nHeaders & Footers\nSocial Metadata\nGoogle Analytics\nCookie Consent\nSite Resources\nDark Mode\n\nhttps://quarto.org/docs/websites/website-tools.html\n\n\nHow .yml files and headers combine\nhttps://quarto.org/docs/projects/quarto-projects.html\n\n\nProcessing foreign notebooks into a good format\nhttps://quarto.org/docs/extensions/nbfilter.html\n\n\nInteractivity (e.g. sliders on plots)\nhttps://quarto.org/docs/interactive/"
+  },
+  {
+    "objectID": "05-reference/05_02-yaml-top-tips/index.html",
+    "href": "05-reference/05_02-yaml-top-tips/index.html",
+    "title": "YAML Top Tips",
+    "section": "",
+    "text": "Try to avoid using HTML code in your markdown, only because Quarto won’t read the HTML when it is rendering. And Quarto will only carry through things into the rendered/previewed version if they are read by Quarto.\nAs an example, I chose to style an image in the markdown, using HTML:\n<div style=     \n    \"background-image: url(portfolio_diego-ph-fIq0tET6llw-unsplash.jpg);\n    width: 100%;\n    height: 400px;\n    background-position: 50% 40%;\n    background-size: cover;\">\n</div>\nbut the image was not carried through into the rendered version so failed to display.\nTo solve this I called the image in simple markdown, but managed to apply inline CSS styling too.\n![](portfolio_diego-ph-fIq0tET6llw-unsplash.jpg){style=\"height: 400px; width: 100%; object-fit: cover; object-position: center;\"}"
+  },
+  {
+    "objectID": "05-reference.html",
+    "href": "05-reference.html",
+    "title": "Reference",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYAML options\n\n\n\ncode\n\n\ndocument\n\n\nguide\n\n\n\n\n\n\n\nSam Llanwarne\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYAML Top Tips\n\n\n\ncode\n\n\ndocument\n\n\nguide\n\n\n\n\n\n\n\nSam Llanwarne\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "06-events/ICNC/index.html",
+    "href": "06-events/ICNC/index.html",
+    "title": "2023 International Conference on Navigation and Communication Systems (ICNCS 2023)",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "06-events/shifting-borders/index.html",
+    "href": "06-events/shifting-borders/index.html",
+    "title": "Shifting Borders: A Journey to the Centre of our World(s)",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "06-events.html",
+    "href": "06-events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJan 12, 2023\n\n\nShifting Borders: A Journey to the Centre of our World(s)\n\n\nHarlow Malloc\n\n\n\n\nJan 9, 2023\n\n\n2023 International Conference on Navigation and Communication Systems (ICNCS 2023)\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "07-blog/post-with-code/index.html",
+    "href": "07-blog/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "07-blog/welcome/index.html",
+    "href": "07-blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "07-blog.html",
+    "href": "07-blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

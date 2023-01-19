@@ -1,0 +1,11 @@
+{
+  "hash": "dddfe640b297765939f6e2b1d8afc72b",
+  "result": {
+    "markdown": "---\ntitle: Plans and Designs\norder: 4\nlisting:\n  contents: 02_04-plans-and-designs\n  image-height: 200px\n  sort: date desc\n  type: default\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n",
+    "supporting": [
+      "02_04-plans-and-designs_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,16 @@
+---
+title: Personal Projects
+order: 3
+listing:
+  contents: 02_03-personal-projects
+  image-height: 200px
+  sort: date desc
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+jupyter: python3
+---
+

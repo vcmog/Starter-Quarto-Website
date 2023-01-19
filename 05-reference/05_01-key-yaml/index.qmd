@@ -1,0 +1,137 @@
+---
+title: YAML options
+author: Sam Llanwarne
+date: '2023-01-14'
+categories:
+  - code
+  - document
+  - guide
+image: key_yaml-javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg
+jupyter: python3
+---
+
+Here I summarise the Quarto docs, saying which bits were useful to me...
+
+![](key_yaml-javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
+
+---
+
+### Authoring - Markdown basics
+
+``` ::: content ::: ``` -> ``` <div> <p> content </p> <div> ``` 
+
+<details><summary>Asking CHATGPT about this notation...</summary><br>
+
+<ul>
+ME: do you know what ::: is? Maybe related to markdown.
+
+CHATGPT: The ":::" is often used in markdown as a way to create a horizontal rule, which is a line that separates content on a webpage or document. It is used to visually break up sections of content and make them easier to read. It is supported by many markdown parsers and can be used in many different platforms like Github, Jupyter notebook, etc.
+
+ME: is it related to breaks between cells in notebooks?
+
+CHATGPT: No, the ":::" is not typically used to indicate breaks between cells in notebooks. Notebooks, such as Jupyter, use specific syntax to separate code cells, such as using "---" or "***" in markdown cells or using "#%%" in code cells.
+
+It's not a standard syntax, but some people use it as a way to separate cells in jupyter notebook but it is not officially supported and different from the standard way which is using the command "---" or "***" in markdown cell or using "#%%" in code cells.
+</ul>
+</details>
+
+[https://quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html)
+
+### Authoring - Article Layout
+
+- .column-body-outset
+- .column-page-inset
+- .column-page
+- .column-screen-inset
+- .column-screen
+
+:::{.column-screen-left}
+![](article-layout.png){width=100%}
+:::
+
+also can put direction on the end -right or -left. 
+
+Using the margin:
+
+- can put footnotes, citations and asides in the margin too.
+- can also put like figures and stuff in the margin.
+
+[https://quarto.org/docs/authoring/article-layout.html](https://quarto.org/docs/authoring/article-layout.html)
+
+### Navigation
+
+- Overview
+- Top Navigation
+- Side Navigation
+- Hybrid Navigation
+- Page Navigation
+- Page Footer
+- Hiding Navigation
+- Reader Mode
+- Site Search
+- GitHub Links
+- Redirects
+- 404 Pages
+
+[https://quarto.org/docs/websites/website-navigation.html](https://quarto.org/docs/websites/website-navigation.html)
+
+### Document Listings (make a structured list of things on a web page)
+
+- Listing Contents (a whole folder, or specific files/folders)
+- Listing Options
+    + Default
+    + Grids
+    + Tables
+- User Tools
+    + Sorting dropdown
+    + Filtering dropdown
+    + Pagination (showing a finite number pf posts at once and splitting the list of posts over multiple pages)
+- Listing Location (e.g. listing sandwiched between texts)
+    + Multiple Listings
+- Listing Fields (e.g. [image, date, title, author, reading-time])
+    + Customizing Fields
+- Listing Sorting and Tags
+
+[https://quarto.org/docs/websites/website-listings.html](https://quarto.org/docs/websites/website-listings.html)
+
+### Extra on Listings
+
+- Listing templates (In addition to the 3 built in types of listings can make custom listings)
+- Dealing with listing metadata and customising it
+- Points to the [gallery](https://quarto.org/docs/gallery/) to show examples of quarto websites
+
+[https://quarto.org/docs/websites/website-listings-custom.html](https://quarto.org/docs/websites/website-listings-custom.html)
+
+### Page Layout
+
+- page-layout (article, full, custom)
+    + in custom, can make grid with different column widths
+
+[https://quarto.org/docs/output-formats/page-layout.html#custom](https://quarto.org/docs/output-formats/page-layout.html#custom)
+
+### Themes
+
+[https://quarto.org/docs/output-formats/html-themes.html](https://quarto.org/docs/output-formats/html-themes.html)
+
+### Extra Website Things
+
+- Headers & Footers
+- Social Metadata
+- Google Analytics
+- Cookie Consent
+- Site Resources
+- Dark Mode
+
+[https://quarto.org/docs/websites/website-tools.html](https://quarto.org/docs/websites/website-tools.html)
+
+### How .yml files and headers combine
+
+[https://quarto.org/docs/projects/quarto-projects.html](https://quarto.org/docs/projects/quarto-projects.html)
+
+### Processing foreign notebooks into a good format
+
+[https://quarto.org/docs/extensions/nbfilter.html](https://quarto.org/docs/extensions/nbfilter.html)
+
+### Interactivity (e.g. sliders on plots)
+
+[https://quarto.org/docs/interactive/](https://quarto.org/docs/interactive/)

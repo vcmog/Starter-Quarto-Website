@@ -1,0 +1,11 @@
+{
+  "hash": "0f45386bd205b12ff3b0859699bbd88b",
+  "result": {
+    "markdown": "---\ntitle: Tutorials\nlisting:\n  contents: 04-tutorials\n  image-height: 200px\n  sort: date desc\n  type: grid\n  grid-columns: 1\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n",
+    "supporting": [
+      "04-tutorials_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

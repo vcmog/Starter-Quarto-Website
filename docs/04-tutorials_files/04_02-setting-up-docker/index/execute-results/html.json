@@ -1,0 +1,11 @@
+{
+  "hash": "97b51bc123544299e970b30c43aabbe3",
+  "result": {
+    "markdown": "---\ntitle: Setting up Docker\npage-layout: full\ntitle-block-banner: true\n---\n\n![](docker_ian-taylor-jOqJbvo1P9g-unsplash.jpg){style=\"height: 300px; width: 100%; object-fit: cover; object-position: center;\"}\n\n\nContent\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

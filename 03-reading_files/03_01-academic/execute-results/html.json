@@ -1,0 +1,11 @@
+{
+  "hash": "a91a126c2660420819fa65e294bd8c3c",
+  "result": {
+    "markdown": "---\ntitle: Academic\nlisting:\n  id: academic-readings\n  contents: 03_01-academic\n  image-height: 200px\n  sort: date desc\n  type: default\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n<div style=\"width: 100%; height: 200px; overflow: hidden;\">\n  <img src=\"academic__kari-shea-apcUIqOPEIo-unsplash.jpg\" style=\"position: relative; top: -400px; width: 100%;\">\n</div>\n\n<!-- \n::: {style=\"width: 100%; height: 200px; overflow: hidden;\"}\n![](academic__kari-shea-apcUIqOPEIo-unsplash.jpg){style=\"position: relative; top: -400px; width: 100%;\"}\n::: -->\n\n<br>\n\n",
+    "supporting": [
+      "03_01-academic_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

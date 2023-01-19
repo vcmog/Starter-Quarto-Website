@@ -1,0 +1,11 @@
+{
+  "hash": "5c0a350f067689916cbf9390370c2d38",
+  "result": {
+    "markdown": "---\ntitle: YAML Top Tips\nauthor: Sam Llanwarne\ndate: '2023-01-14'\ncategories:\n  - code\n  - document\n  - guide\ntitle-block-banner: true\n---\n\n![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style=\"height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;\"}\n\nTry to avoid using HTML code in your markdown, only because Quarto won't read the HTML when it is rendering. And Quarto will only carry through things into the rendered/previewed version if they are read by Quarto.\n\nAs an example, I chose to style an image in the markdown, using HTML:\n\n``` HTML\n<div style=\t\t\n    \"background-image: url(portfolio_diego-ph-fIq0tET6llw-unsplash.jpg);\n    width: 100%;\n    height: 400px;\n    background-position: 50% 40%;\n    background-size: cover;\">\n</div>\n```\n\nbut the image was not carried through into the rendered version so failed to display.\n\nTo solve this I called the image in simple markdown, but managed to apply inline CSS styling too.\n\n``` Markdown\n![](portfolio_diego-ph-fIq0tET6llw-unsplash.jpg){style=\"height: 400px; width: 100%; object-fit: cover; object-position: center;\"}\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

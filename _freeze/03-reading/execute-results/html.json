@@ -1,0 +1,11 @@
+{
+  "hash": "1df9a17b4899145e57da0bd8cbc2f349",
+  "result": {
+    "markdown": "---\ntitle: Reading\nlisting:\n  id: reading-sub-categories\n  contents:\n    - 03-reading/*.qmd\n    - 03-reading/*.ipynb\n  image-height: 200px\n  sort: date desc\n  type: grid\npage-layout: article\ntitle-block-banner: true\n---\n\n![](reading_kimberly-farmer-lUaaKCUANVI-unsplash.jpg){style=\"height: 300px; width: 100%; object-fit: cover; object-position: top;\"}\n\nHere I like to write summaries of things I've read. For future reference and to help me remember them... \n\n---\n\n::: {#reading-sub-categories}\n:::\n\n---\n\n",
+    "supporting": [
+      "03-reading_files\\figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

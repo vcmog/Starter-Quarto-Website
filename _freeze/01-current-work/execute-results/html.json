@@ -1,0 +1,11 @@
+{
+  "hash": "0b9f3a1fea0131d3446052dae86e9bef",
+  "result": {
+    "markdown": "---\ntitle: Making a website\nimage: profile.jpg\nabout:\n  id: about-page\n  template: broadside\n  links:\n    - icon: twitter\n      text: Twitter\n      href: 'https://twitter.com'\n    - icon: linkedin\n      text: LinkedIn\n      href: 'https://linkedin.com'\n    - icon: github\n      text: Github\n      href: 'https://github.com'\n---\n\n::: {#about-page}\n\nI am currently creating a website using a template as a starting point. \n\n#### Things to Consider\n- Purpose and goals\n- Target audience and user experience\n- Design and layout\n- Content and information\n\n#### Outcomes\nI hope to establish a digital presence that includes:\n\n- An overview of my work\n- An online portfolio\n- A summary of papers I've read\n- A list of guides\n- A journal of events I attended\n- A blog\n\n#### Influences\nMy website project has been influenced by other professional websites, design trends, feedback and my personal style.\n\n:::\n\n",
+    "supporting": [
+      "01-current-work_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

@@ -1,0 +1,117 @@
+project:
+  type: website
+  output-dir: docs
+  # render:
+  #   - "*.qmd"
+  #   - "*.md"
+  #   - "*.ipynb"
+
+website:
+  favicon: icons8-b-67.png
+  title: "Starter Quarto Website"
+  # page-navigation: true
+  navbar:
+    left:
+      - text: "Current Work"
+        file: 01-current-work.qmd
+      - text: "Portfolio"
+        file: 02-portfolio.qmd
+      - text: "Reading"
+        menu:
+            - text: "Reading"
+              href: 03-reading.qmd
+            - "---"
+            - text: "Academic"
+              href: 03-reading/03-01-academic.qmd
+            - text: "Fiction"
+              href: 03-reading/03-02-fiction.qmd
+            - text: "Other"
+              href: 03-reading/03-03-other.qmd
+      - text: "Tutorials"
+        file: 04-tutorials.qmd
+      - text: "Reference"
+        file: 05-reference.qmd
+      - text: "Events"
+        file: 06-events.qmd
+      - text: "Blog"
+        file: 07-blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+
+  sidebar:
+    # - background: "primary"
+    # - foreground: "primary"
+
+    #   contents: 03-reading/*
+    #     - text: "Academic"
+    #       href: 03-reading/01-academic.ipynb
+    #     - 02-portfolio.ipynb
+
+    - title: "Portfolio"
+      # style: "floating"
+      # style: docked
+      collapse-level: 2
+      align: "right"
+      # border: true
+      # background: secondary
+      foreground: primary
+      # type: "dark"
+      contents: 
+        # - icon: three-dots-vertical
+        - text: ""
+          href: 02-portfolio.qmd
+        - "---"
+        - auto: 02-portfolio/*
+          sort: filename
+
+    - title: "Reading"
+      contents:
+        # - "---"
+        - text: " "
+          href: 03-reading.qmd
+        - "---"
+        - auto: 03-reading/*
+          sort: filename
+        # - "---"
+        # - section: "03-reading.ipynb"
+        #   contents:
+        #     - text: "Academic"
+        #       href: 03-reading/03-01-academic.ipynb
+        #     - text: "Fiction"
+        #       href: 03-reading/03-02-fiction.ipynb
+        #     - text: "Other"
+        #       href: 03-reading/03-03-other.ipynb
+
+  page-footer: 
+    left: "Your name?"
+    center:
+      - text: "About"
+        href: about.qmd
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+
+format:
+  html: 
+    code-tools:
+      source: true
+      toggle: false
+      caption: none
+    theme: minty
+    css: styles.css
+    toc: true
+
+freeze: true
+
+# editor: visual
+
+
+
+
+
+

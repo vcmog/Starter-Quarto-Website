@@ -1,0 +1,42 @@
+---
+title: YAML Top Tips
+author: Sam Llanwarne
+date: '2023-01-14'
+categories:
+  - code
+  - document
+  - guide
+title-block-banner: true
+jupyter: python3
+---
+
+![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;"}
+
+Try to avoid using HTML code in your markdown, only because Quarto won't read the HTML when it is rendering. And Quarto will only carry through things into the rendered/previewed version if they are read by Quarto.
+
+As an example, I chose to style an image in the markdown, using HTML:
+
+``` HTML
+<div style=		
+    "background-image: url(portfolio_diego-ph-fIq0tET6llw-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: 50% 40%;
+    background-size: cover;">
+</div>
+```
+
+but the image was not carried through into the rendered version so failed to display.
+
+To solve this I called the image in simple markdown, but managed to apply inline CSS styling too.
+
+``` Markdown
+![](portfolio_diego-ph-fIq0tET6llw-unsplash.jpg){style="height: 400px; width: 100%; object-fit: cover; object-position: center;"}
+```
+
+
+
+
+
+
+

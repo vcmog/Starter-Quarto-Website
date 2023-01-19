@@ -1,0 +1,15 @@
+---
+title: "Shifting Borders: A Journey to the Centre of our World(s)"
+author: "Harlow Malloc"
+date: "2023-01-12"
+categories: [news, code, analysis]
+image: "image.jpg"
+format:
+  html: 
+    code-tools:
+      source: true
+      toggle: false
+      caption: none
+---
+
+This is a post with executable code.

@@ -1,0 +1,11 @@
+{
+  "hash": "2733103f3f29d8c3e33db3936e9bb6b8",
+  "result": {
+    "markdown": "---\ntitle: Reference\nlisting:\n  contents: 05-reference\n  image-height: 200px\n  sort: date desc\n  type: grid\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n",
+    "supporting": [
+      "05-reference_files\\figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
