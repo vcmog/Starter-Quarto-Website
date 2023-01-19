@@ -1,5 +1,6 @@
 ---
 title: Personal Projects
+comments: false
 order: 3
 listing:
   contents: 02_03-personal-projects

@@ -22,11 +22,11 @@ website:
               href: 03-reading.qmd
             - "---"
             - text: "Academic"
-              href: 03-reading/03-01-academic.qmd
+              href: 03-reading/03_01-academic.qmd
             - text: "Fiction"
-              href: 03-reading/03-02-fiction.qmd
+              href: 03-reading/03_02-fiction.qmd
             - text: "Other"
-              href: 03-reading/03-03-other.qmd
+              href: 03-reading/03_03-other.qmd
       - text: "Tutorials"
         file: 04-tutorials.qmd
       - text: "Reference"
@@ -105,8 +105,22 @@ format:
     theme: minty
     css: styles.css
     toc: true
+    comments:
+      giscus:
+        repo: Smule11/Starter-Quarto-Website
+        # repo-id: R_kgDOGZGr3w
+        category: Comments
+        # category-id: DIC_kwDOGZGr384B_-52
+        mapping: pathname
+        reactions-enabled: false
+        input-position: top
+        theme: light
+        language: en
 
 freeze: true
+
+## Put the footnotes at the end of the document
+# reference-location: margin
 
 # editor: visual
 

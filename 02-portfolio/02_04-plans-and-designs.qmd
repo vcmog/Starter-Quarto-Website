@@ -1,5 +1,6 @@
 ---
 title: Plans and Designs
+comments: false
 order: 4
 listing:
   contents: 02_04-plans-and-designs

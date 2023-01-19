@@ -10,6 +10,6 @@ listing:
   filter-ui: true
 page-layout: full
 title-block-banner: true
-jupyter: python3
+comments: false
 ---
 

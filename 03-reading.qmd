@@ -10,7 +10,7 @@ listing:
   type: grid
 page-layout: article
 title-block-banner: true
-jupyter: python3
+comments: false
 ---
 
 ![](reading_kimberly-farmer-lUaaKCUANVI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: top;"}

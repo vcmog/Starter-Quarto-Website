@@ -2,7 +2,6 @@
 title: Setting up Docker
 page-layout: full
 title-block-banner: true
-jupyter: python3
 ---
 
 ![](docker_ian-taylor-jOqJbvo1P9g-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}

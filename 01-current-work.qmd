@@ -14,7 +14,7 @@ about:
     - icon: github
       text: Github
       href: 'https://github.com'
-jupyter: python3
+comments: false
 ---
 
 ::: {#about-page}

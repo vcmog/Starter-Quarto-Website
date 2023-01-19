@@ -1,5 +1,6 @@
 ---
 title: Work
+comments: false
 order: 2
 listing:
   contents: 02_02-work

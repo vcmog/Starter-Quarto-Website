@@ -135,3 +135,7 @@ Using the margin:
 ### Interactivity (e.g. sliders on plots)
 
 [https://quarto.org/docs/interactive/](https://quarto.org/docs/interactive/)
+
+---
+
+This part of the Quarto website has loads of YAML in which is useful too...

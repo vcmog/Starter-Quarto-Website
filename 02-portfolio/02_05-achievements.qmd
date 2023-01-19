@@ -1,5 +1,6 @@
 ---
 title: Achievements
+comments: false
 order: 5
 listing:
   contents: 02_02-achievements

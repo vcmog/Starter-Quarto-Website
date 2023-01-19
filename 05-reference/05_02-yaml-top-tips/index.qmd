@@ -34,9 +34,16 @@ To solve this I called the image in simple markdown, but managed to apply inline
 ![](portfolio_diego-ph-fIq0tET6llw-unsplash.jpg){style="height: 400px; width: 100%; object-fit: cover; object-position: center;"}
 ```
 
+---
 
+For some reason having 
 
+``` yaml
+jupyter: python3
+```
 
+in the Yaml causes Quarto to make a '_files' folder mirroring the file/folder with the jupyter: python3 Yaml in. This mirror folder contains execute files, probably letting Quarto know what to run in python or something. Essentially, I am a bit unsure about this Yaml.
 
+---
 
 

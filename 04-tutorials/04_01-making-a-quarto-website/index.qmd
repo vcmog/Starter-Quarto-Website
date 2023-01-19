@@ -1,20 +1,58 @@
 ---
 title: Making a Quarto website
 title-block-banner: true
-jupyter: python3
 ---
-
-::: {
 
 ![](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
 
-:::
 
 Essentially, I just made this website to include as many of the template features in the YAML as possible.
 
 So you are free to take whatever features and make your own website from here.
 
-The main Quarto webpage also 
+The main Quarto webpage is also a feature rich website, and so the GitHub repo is good to look at.
 
+
+### Top tips
+
+To add citations you can type @ reference id, like this @xie2015...
+
+The references, including the id, are stored in a references.bib file.
+
+---
+
+To write in the margin you can make a div like so
+
+``` markdown
+::: {.column-margin}
+
+Stuff you can write in the margin
+
+![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)
+
+:::
+```
+
+::: {.column-margin}
+
+Stuff you can write in the margin
+
+![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)
+
+:::
+
+---
+
+I got comments working using [https://www.joelnitta.com/](https://www.joelnitta.com/)'s website.
+
+GitHub here [https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml](https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml)
+
+And this is a footnote, or extra bit of content[^1]^[and some inline footnote stuff]
+
+[^1]: Some longer form content
+    
+    which you can put into a footnote
+
+    is that cool?
 
 

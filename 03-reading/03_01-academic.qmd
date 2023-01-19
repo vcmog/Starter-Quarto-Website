@@ -1,7 +1,7 @@
 ---
 title: Academic
+comments: false
 listing:
-  id: academic-readings
   contents: 03_01-academic
   image-height: 200px
   sort: date desc
@@ -11,17 +11,18 @@ listing:
   filter-ui: true
 page-layout: full
 title-block-banner: true
-jupyter: python3
 ---
 
-<div style="width: 100%; height: 200px; overflow: hidden;">
+<!-- <div style="width: 100%; height: 200px; overflow: hidden;">
   <img src="academic__kari-shea-apcUIqOPEIo-unsplash.jpg" style="position: relative; top: -400px; width: 100%;">
-</div>
+</div> -->
 
 <!-- 
 ::: {style="width: 100%; height: 200px; overflow: hidden;"}
 ![](academic__kari-shea-apcUIqOPEIo-unsplash.jpg){style="position: relative; top: -400px; width: 100%;"}
 ::: -->
+
+![](academic__kari-shea-apcUIqOPEIo-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
 
 <br>
 
