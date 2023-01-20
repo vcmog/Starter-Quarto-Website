@@ -24,7 +24,7 @@ You can publish this website using GitHub pages, or on other platforms, see [her
 - Having a website where you can showcase yourself and your portfolio makes you stand out to employers (as does being active on GitHub, which writing on this website will make you appear).
 - As alluded to before, there is a small initial learning curve, before the process becomes fast. But the skills required are mainstream and highly useful (e.g. GitHub, Markdown, HTML).
 
-### Quick way to get your own website up and running in 3 minutes!
+### Quick way to get your own website up and running in 3 minutes and 2 steps!
 
 Assuming you have a GitHub account that is:
 
