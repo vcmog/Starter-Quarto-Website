@@ -19,25 +19,18 @@ comments: false
 
 ::: {#about-page}
 
-I am currently creating a website using a template as a starting point. 
+I am currently creating a website, to encourage and help others to make their own website too.
 
 #### Things to Consider
 - Purpose and goals
 - Target audience and user experience
-- Design and layout
 - Content and information
 
 #### Outcomes
 I hope to establish a digital presence that includes:
 
-- An overview of my work
-- An online portfolio
-- A summary of papers I've read
-- A list of guides
-- A journal of events I attended
-- A blog
-
-#### Influences
-My website project has been influenced by other professional websites, design trends, feedback and my personal style.
+- An overview of current and previous work.
+- A summary of papers I've read and events attended.
+- A list of how-to guides and general thoughts.
 
 :::
