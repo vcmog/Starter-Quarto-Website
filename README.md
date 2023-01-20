@@ -22,13 +22,13 @@ The YAML header controls the layout of the page. On each page in the template th
 
 2. Go into the settings of your new website repo, and find the settings for "Pages" (probably on the middle left)
 
-  Under build and deployment, select branch=main and folder=/docs.
+    Under build and deployment, select branch=main and folder=/docs.
 
-  Then your website should go live.
+    Then your website should go live.
 
-  Your settings page should look like this:
+    Your settings page should look like this:
 
-  ![github pages settings](https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png)
+    ![github pages settings](https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png)
 
 ### How to edit:
 
@@ -42,9 +42,9 @@ In short:
 
 2. Convert the markdown files into the HTML files, using Quarto. 
 
-  Run "quarto render the_file_path_of_your_website_directory" in a terminal (or use the shortcut in VS Code / Jupyter Notebook if you have the relevant Quarto extension).
+    Run "quarto render the_file_path_of_your_website_directory" in a terminal (or use the shortcut in VS Code / Jupyter Notebook if you have the relevant Quarto extension).
 
-  Now your local HTML files are updated, by Quarto, based on your Markdown files.
+    Now your local HTML files are updated, by Quarto, based on your Markdown files.
 
 3. Push this local repository back up to the GitHub repository where your github pages website is stored. 
 
