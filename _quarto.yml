@@ -11,6 +11,7 @@ website:
   title: "Starter Quarto Website"
   # page-navigation: true
   navbar:
+    pinned: true
     left:
       - text: "Current Work"
         file: 01-current-work.qmd
