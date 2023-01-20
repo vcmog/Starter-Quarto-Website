@@ -28,7 +28,7 @@ The YAML header controls the layout of the page. On each page in the template th
 
     Your settings page should look like this:
 
-    ![github pages settings](https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png)
+    ![github pages settings](https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png){style="border: 10px solid transparent;"}
 
 ### How to edit:
 
