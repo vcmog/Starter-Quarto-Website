@@ -40,7 +40,7 @@ Assuming you have a GitHub account that is:
     
     ----------
 
-### But how to edit the files...:
+### But how to edit the files...
 
 This process has a couple of steps, but you need to edit it locally on your computer and render the markdown with Quarto, then push the files back up to GitHub.
 
@@ -58,7 +58,7 @@ In short:
 
 3. Push this local repository back up to the GitHub repository where your GitHub pages website is stored, using Git. 
 
-### Advanced:
+### Advanced
 
 You can also add javascript into your Quarto webpage, linked through the YAML header, to customise the webpage further. See [here](https://quarto.org/docs/reference/formats/html.html#includes).
 
