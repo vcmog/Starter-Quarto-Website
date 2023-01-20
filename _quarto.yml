@@ -17,16 +17,7 @@ website:
       - text: "Portfolio"
         file: 02-portfolio.qmd
       - text: "Reading"
-        menu:
-            - text: "Reading"
-              href: 03-reading.qmd
-            - "---"
-            - text: "Academic"
-              href: 03-reading/03_01-academic.qmd
-            - text: "Fiction"
-              href: 03-reading/03_02-fiction.qmd
-            - text: "Other"
-              href: 03-reading/03_03-other.qmd
+        file: "03-reading.qmd"
       - text: "Tutorials"
         file: 04-tutorials.qmd
       - text: "Reference"
@@ -35,6 +26,14 @@ website:
         file: 06-events.qmd
       - text: "Blog"
         file: 07-blog.qmd
+      - text: Links
+        menu:
+            - text: "CV / Resume"
+              href: wikimedia_org_commons_Resume.pdf
+            - text: "Quarto"
+              href: https://quarto.org/
+            - text: "Bailey Blog"
+              href: https://baileyandrew.github.io/Blog/
     right:
       - icon: github
         href: https://github.com/

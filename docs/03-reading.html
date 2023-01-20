@@ -134,9 +134,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -183,30 +183,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link" href="./02-portfolio.html">
  <span class="menu-text">Portfolio</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reading" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Reading</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-reading">    
-        <li>
-    <a class="dropdown-item" href="./03-reading.html">
- <span class="dropdown-text">Reading</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./03-reading.html" aria-current="page">
+ <span class="menu-text">Reading</span></a>
   </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li>
-    <a class="dropdown-item" href="./03-reading/03_01-academic.html">
- <span class="dropdown-text">Academic</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./03-reading/03_02-fiction.html">
- <span class="dropdown-text">Fiction</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./03-reading/03_03-other.html">
- <span class="dropdown-text">Other</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./04-tutorials.html">
  <span class="menu-text">Tutorials</span></a>
@@ -223,6 +203,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <a class="nav-link" href="./07-blog.html">
  <span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Links</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-links">    
+        <li>
+    <a class="dropdown-item" href="./wikimedia_org_commons_Resume.pdf">
+ <span class="dropdown-text">CV / Resume</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://quarto.org/">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://baileyandrew.github.io/Blog/">
+ <span class="dropdown-text">Bailey Blog</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -308,63 +307,75 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><img src="reading_kimberly-farmer-lUaaKCUANVI-unsplash.jpg" class="img-fluid" style="height: 300px; width: 100%; object-fit: cover; object-position: top;"></p>
 <p>Here I like to write summaries of things I’ve read. For future reference and to help me remember them…</p>
 <hr>
-<div id="listing-reading-sub-categories" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-reading-sub-categories-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-reading-sub-categories'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-reading-sub-categories" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1674222188890" data-listing-reading-time-sort="0.04">
+<a href="./03-reading/03_01-academic.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./03-reading/academic__kari-shea-apcUIqOPEIo-unsplash.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Academic
+</h5>
+<div class="card-text listing-description">
+<br>
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1674144636693" data-listing-reading-time-sort="0.19" data-listing-title-sort="Academic" data-listing-filename-sort="03_01-academic.qmd">
-<td class="listing-title">
-<a href="./03-reading/03_01-academic.html" class="title">Academic</a>
-</td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1674144640260" data-listing-reading-time-sort="0.165" data-listing-title-sort="Fiction" data-listing-filename-sort="03_02-fiction.qmd">
-<td class="listing-title">
-<a href="./03-reading/03_02-fiction.html" class="title">Fiction</a>
-</td>
-<td class="listing-author">
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1674144643238" data-listing-reading-time-sort="0.195" data-listing-title-sort="Other" data-listing-filename-sort="03_03-other.qmd">
-<td class="listing-title">
-<a href="./03-reading/03_03-other.html" class="title">Other</a>
-</td>
-<td class="listing-author">
-</td>
-</tr>
-</tbody>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1674222185784" data-listing-reading-time-sort="0.04">
+<a href="./03-reading/03_02-fiction.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./03-reading/fiction__pierre-bamin-RwdBwwAnVB0-unsplash.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fiction
+</h5>
+<div class="card-text listing-description">
+<br>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-</table>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1674222182073" data-listing-reading-time-sort="0.04">
+<a href="./03-reading/03_03-other.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./03-reading/other__patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Other
+</h5>
+<div class="card-text listing-description">
+<br>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -570,7 +581,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    - "03-reading/*.ipynb"</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  image-height: 200px</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  sort: date desc</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  type: table</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  type: grid</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> article</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="an">comments:</span><span class="co"> false</span></span>

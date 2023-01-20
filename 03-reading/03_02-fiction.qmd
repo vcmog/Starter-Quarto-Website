@@ -5,7 +5,7 @@ listing:
   contents: 03_02-fiction
   image-height: 200px
   sort: date desc
-  type: default
+  type: table
   categories: true
   sort-ui: true
   filter-ui: true
@@ -14,15 +14,6 @@ title-block-banner: true
 page-navigation: true
 ---
 
-<!-- <div style="width: 100%; height: 200px; overflow: hidden;">
-  <img src="fiction__pierre-bamin-RwdBwwAnVB0-unsplash.jpg" style="position: relative; top: -25px; width: 100%;">
-</div> -->
-
-<!-- ::: {style="width: 100%; height: 200px; overflow: hidden;"}
-
-![](fiction__pierre-bamin-RwdBwwAnVB0-unsplash.jpg){width=100%}
-
-::: -->
 
 ![](fiction__pierre-bamin-RwdBwwAnVB0-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
 
