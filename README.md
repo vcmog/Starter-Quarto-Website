@@ -1,6 +1,6 @@
 # Starter-Quarto-Website
 
-### Background: What is Quarto?
+### What is Quarto?
 
 Quarto is the most recent website creation tool, but has risen to become one of the most popular, in large part due to the reputation of the team making it. It is a website template tool, so you write in markdown (with a YAML header) and then you make Quarto render your markdown files into the website's HTML.
 
@@ -10,7 +10,7 @@ The YAML header controls the layout of the page. On each page in the template th
 
 While there is a bit of a learning curve, using template website builders like Quarto is easier than making your own website and looks more professional and is super fast once you get used to it. Having looked around Quarto seems to do a decent job blending these facets to give you the best experience in terms of simplicity, speed, flexibility and quality.
 
-### Background: What is this starter website?
+### What is this starter website?
 
 The point of this website is as a more "feature rich" template.
 
@@ -18,13 +18,13 @@ The main [Quarto website](https://quarto.org/) is also feature rich, and a good 
 
 You can publish this website using GitHub pages, or on other platforms, see [here](https://quarto.org/docs/publishing/index.html).
 
-### Why?
+### Why should I have a website?
 
 - Documenting what you have read, learnt and thought online is useful for yourself and others.
 - Having a website where you can showcase yourself and your portfolio makes you stand out to employers (as does being active on GitHub, which writing on this website will make you appear).
 - As alluded to before, there is a small initial learning curve, before the process becomes fast. But the skills required are mainstream and highly useful (e.g. GitHub, Markdown, HTML).
 
-### Quick way to get your own website up and running in 3 minutes!
+### Quick way to get your own website up and running in 3 minutes and 2 steps!
 
 Assuming you have a GitHub account that is:
 
