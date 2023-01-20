@@ -234,62 +234,96 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#top-tips" id="toc-top-tips" class="nav-link active" data-scroll-target="#top-tips">Top tips</a></li>
+  <li><a href="#starter-quarto-website" id="toc-starter-quarto-website" class="nav-link active" data-scroll-target="#starter-quarto-website">Starter-Quarto-Website</a>
+  <ul class="collapse">
+  <li><a href="#background-what-is-quarto" id="toc-background-what-is-quarto" class="nav-link" data-scroll-target="#background-what-is-quarto">Background: What is Quarto?</a></li>
+  <li><a href="#background-what-is-this-starter-website" id="toc-background-what-is-this-starter-website" class="nav-link" data-scroll-target="#background-what-is-this-starter-website">Background: What is this starter website?</a></li>
+  <li><a href="#why" id="toc-why" class="nav-link" data-scroll-target="#why">Why?</a></li>
+  <li><a href="#quick-way-to-get-your-own-website-up-and-running-in-3-minutes" id="toc-quick-way-to-get-your-own-website-up-and-running-in-3-minutes" class="nav-link" data-scroll-target="#quick-way-to-get-your-own-website-up-and-running-in-3-minutes">Quick way to get your own website up and running in 3 minutes!</a></li>
+  <li><a href="#but-how-to-edit-the-files" id="toc-but-how-to-edit-the-files" class="nav-link" data-scroll-target="#but-how-to-edit-the-files">But how to edit the files…</a></li>
+  <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced">Advanced</a></li>
+  <li><a href="#useful-links" id="toc-useful-links" class="nav-link" data-scroll-target="#useful-links">Useful links</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 <p><img src="website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg" class="img-fluid" style="height: 300px; width: 100%; object-fit: cover; object-position: center;"></p>
-<p>Essentially, I just made this website to include as many of the template features in the YAML as possible.</p>
-<p>So you are free to take whatever features and make your own website from here.</p>
-<p>The main Quarto webpage is also a feature rich website, and so the GitHub repo is good to look at.</p>
-<section id="top-tips" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="top-tips">Top tips</h3>
-<p>To add citations you can type @ reference id, like this <span class="citation" data-cites="xie2015">@xie2015</span>…</p>
-<p>The references, including the id, are stored in a references.bib file.</p>
+<section id="starter-quarto-website" class="level1">
+<h1>Starter-Quarto-Website</h1>
+<section id="background-what-is-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="background-what-is-quarto">Background: What is Quarto?</h3>
+<p>Quarto is the most recent website creation tool, but has risen to become one of the most popular, in large part due to the reputation of the team making it. It is a website template tool, so you write in markdown (with a YAML header) and then you make Quarto render your markdown files into the website’s HTML.</p>
+<p>All Quarto does is turn your Markdown files into HTML files, the format of which can be tweaked by the optional associated YAML header, telling Quarto how to decorate the webpages.</p>
+<p>The YAML header controls the layout of the page. On each page in the template there will be a &lt;/&gt; button, to reveal what the underlying Markdown+YAML source file is pre-Quarto conversion into HTML, if you so wished to know!</p>
+<p>While there is a bit of a learning curve, using template website builders like Quarto is easier than making your own website and looks more professional and is super fast once you get used to it. Having looked around Quarto seems to do a decent job blending these facets to give you the best experience in terms of simplicity, speed, flexibility and quality.</p>
+</section>
+<section id="background-what-is-this-starter-website" class="level3">
+<h3 class="anchored" data-anchor-id="background-what-is-this-starter-website">Background: What is this starter website?</h3>
+<p>The point of this website is as a more “feature rich” template.</p>
+<p>The main <a href="https://quarto.org/">Quarto website</a> is also feature rich, and a good source of insipration, but I thought it would be easier to have this website as a starting point, so you can copy this website to your own repo as explained below, as explained below, to get a more feature rich website out of the blocks.</p>
+<p>You can publish this website using GitHub pages, or on other platforms, see <a href="https://quarto.org/docs/publishing/index.html">here</a>.</p>
+</section>
+<section id="why" class="level3">
+<h3 class="anchored" data-anchor-id="why">Why?</h3>
+<ul>
+<li>Documenting what you have read, learnt and thought online is useful for yourself and others.</li>
+<li>Having a website where you can showcase yourself and your portfolio makes you stand out to employers (as does being active on GitHub, which writing on this website will make you appear).</li>
+<li>As alluded to before, there is a small initial learning curve, before the process becomes fast. But the skills required are mainstream and highly useful (e.g.&nbsp;GitHub, Markdown, HTML).</li>
+</ul>
+</section>
+<section id="quick-way-to-get-your-own-website-up-and-running-in-3-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="quick-way-to-get-your-own-website-up-and-running-in-3-minutes">Quick way to get your own website up and running in 3 minutes!</h3>
+<p>Assuming you have a GitHub account that is:</p>
+<ol type="1">
+<li><p>Fork this repo (in the top right) of <a href="https://github.com/Smule11/Starter-Quarto-Website/">this page</a> to make your own website repository.</p></li>
+<li><p>Go into the settings of your new website repo, and edit the settings for “Pages” (on the middle left somewhere):</p>
+<p>Under ‘build and deployment’, select branch=main and folder=/docs. Then your website should go live!</p>
 <hr>
-<p>To write in the margin you can make a div like so</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>::: {.column-margin}</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Stuff you can write in the margin</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="al">![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p>Stuff you can write in the margin</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">A margin image</figcaption><p></p>
+<p><img src="https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">github pages settings</figcaption><p></p>
 </figure>
 </div>
-</div></div><hr>
-<p>I got comments working using <a href="https://www.joelnitta.com/">https://www.joelnitta.com/</a>’s website.</p>
-<p>GitHub here <a href="https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml">https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml</a></p>
-<p>And this is a footnote, or extra bit of content<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<hr></li>
+</ol>
+</section>
+<section id="but-how-to-edit-the-files" class="level3">
+<h3 class="anchored" data-anchor-id="but-how-to-edit-the-files">But how to edit the files…</h3>
+<p>This process has a couple of steps, but you need to edit it locally on your computer and render the markdown with Quarto, then push the files back up to GitHub.</p>
+<p>You will need to have <a href="https://quarto.org/">Quarto</a> and <a href="https://www.codecademy.com/article/f1-u3-git-setup">Git installed on your computer and linked to your GitHub</a>.</p>
+<p>In short:</p>
+<ol type="1">
+<li>then download your github repo containing your website to your local computer.</li>
+</ol>
+<p>Then you can edit the markdown files in a markdown (.md / .qmd) or notebook (.ipynb) editor of your choice.</p>
+<ol start="2" type="1">
+<li><p>Convert the markdown files into the HTML files, using Quarto.</p>
+<p>Run “quarto render the_file_path_of_your_website_directory” in a terminal (or use the shortcut in VS Code / Jupyter Notebook if you have the relevant Quarto extension).</p></li>
+<li><p>Push this local repository back up to the GitHub repository where your GitHub pages website is stored, using Git.</p></li>
+</ol>
+</section>
+<section id="advanced" class="level3">
+<h3 class="anchored" data-anchor-id="advanced">Advanced</h3>
+<p>You can also add javascript into your Quarto webpage, linked through the YAML header, to customise the webpage further. See <a href="https://quarto.org/docs/reference/formats/html.html#includes">here</a>.</p>
+</section>
+<section id="useful-links" class="level3">
+<h3 class="anchored" data-anchor-id="useful-links">Useful links</h3>
+<p><a href="https://www.codecademy.com/article/f1-u3-git-setup">Setting up Git and GitHub</a> <a href="https://quarto.org/">Quarto Guide</a></p>
 
 
 <!-- -->
 
 </section>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Some longer form content</p>
-<p>which you can put into a footnote</p>
-<p>is that cool?<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>and some inline footnote stuff<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -476,63 +510,82 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://giscus.app/client.js" data-repo="Smule11/Starter-Quarto-Website" data-repo-id="R_kgDOIzgSwQ" data-category="Comments" data-category-id="" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> Making a Quarto website</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="al">![](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)</span>{style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>Essentially, I just made this website to include as many of the template features in the YAML as possible.</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>So you are free to take whatever features and make your own website from here.</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>The main Quarto webpage is also a feature rich website, and so the GitHub repo is good to look at.</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### Top tips</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>To add citations you can type @ reference id, like this @xie2015...</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>The references, including the id, are stored in a references.bib file.</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>To write in the margin you can make a div like so</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="in">``` markdown</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>::: {.column-margin}</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>Stuff you can write in the margin</span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="al">![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>::: {.column-margin}</span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>Stuff you can write in the margin</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="al">![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>I got comments working using <span class="co">[</span><span class="ot">https://www.joelnitta.com/</span><span class="co">](https://www.joelnitta.com/)</span>'s website.</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>GitHub here <span class="co">[</span><span class="ot">https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml</span><span class="co">](https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml)</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>And this is a footnote, or extra bit of content<span class="ot">[^1]</span>^<span class="co">[</span><span class="ot">and some inline footnote stuff</span><span class="co">]</span></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>Some longer form content</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="in">    which you can put into a footnote</span></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="in">    is that cool?</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> Making a Quarto website</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="al">![](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)</span>{style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu"># Starter-Quarto-Website</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">### Background: What is Quarto?</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Quarto is the most recent website creation tool, but has risen to become one of the most popular, in large part due to the reputation of the team making it. It is a website template tool, so you write in markdown (with a YAML header) and then you make Quarto render your markdown files into the website's HTML.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>All Quarto does is turn your Markdown files into HTML files, the format of which can be tweaked by the optional associated YAML header, telling Quarto how to decorate the webpages.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>The YAML header controls the layout of the page. On each page in the template there will be a &lt;/&gt; button, to reveal what the underlying Markdown+YAML source file is pre-Quarto conversion into HTML, if you so wished to know!</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>While there is a bit of a learning curve, using template website builders like Quarto is easier than making your own website and looks more professional and is super fast once you get used to it. Having looked around Quarto seems to do a decent job blending these facets to give you the best experience in terms of simplicity, speed, flexibility and quality.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Background: What is this starter website?</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>The point of this website is as a more "feature rich" template.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>The main <span class="co">[</span><span class="ot">Quarto website</span><span class="co">](https://quarto.org/)</span> is also feature rich, and a good source of insipration, but I thought it would be easier to have this website as a starting point, so you can copy this website to your own repo as explained below, as explained below, to get a more feature rich website out of the blocks.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>You can publish this website using GitHub pages, or on other platforms, see <span class="co">[</span><span class="ot">here</span><span class="co">](https://quarto.org/docs/publishing/index.html)</span>.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### Why?</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Documenting what you have read, learnt and thought online is useful for yourself and others.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Having a website where you can showcase yourself and your portfolio makes you stand out to employers (as does being active on GitHub, which writing on this website will make you appear).</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>As alluded to before, there is a small initial learning curve, before the process becomes fast. But the skills required are mainstream and highly useful (e.g. GitHub, Markdown, HTML).</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="fu">### Quick way to get your own website up and running in 3 minutes!</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>Assuming you have a GitHub account that is:</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Fork this repo (in the top right) of <span class="co">[</span><span class="ot">this page</span><span class="co">](https://github.com/Smule11/Starter-Quarto-Website/)</span> to make your own website repository.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Go into the settings of your new website repo, and edit the settings for "Pages" (on the middle left somewhere):</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    Under 'build and deployment', select branch=main and folder=/docs. Then your website should go live!</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    ----------</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="al">![github pages settings](https://user-images.githubusercontent.com/22969230/213680688-a73472b9-612e-4309-9dcf-c565af6afa09.png)</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    ----------</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="fu">### But how to edit the files...</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>This process has a couple of steps, but you need to edit it locally on your computer and render the markdown with Quarto, then push the files back up to GitHub.</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>You will need to have <span class="co">[</span><span class="ot">Quarto</span><span class="co">](https://quarto.org/)</span> and <span class="co">[</span><span class="ot">Git installed on your computer and linked to your GitHub</span><span class="co">](https://www.codecademy.com/article/f1-u3-git-setup)</span>.</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>In short:</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>then download your github repo containing your website to your local computer.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>  Then you can edit the markdown files in a markdown (.md / .qmd) or notebook (.ipynb) editor of your choice.</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Convert the markdown files into the HTML files, using Quarto. </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    Run "quarto render the_file_path_of_your_website_directory" in a terminal (or use the shortcut in VS Code / Jupyter Notebook if you have the relevant Quarto extension).</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Push this local repository back up to the GitHub repository where your GitHub pages website is stored, using Git. </span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="fu">### Advanced</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>You can also add javascript into your Quarto webpage, linked through the YAML header, to customise the webpage further. See <span class="co">[</span><span class="ot">here</span><span class="co">](https://quarto.org/docs/reference/formats/html.html#includes)</span>.</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="fu">### Useful links</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Setting up Git and GitHub</span><span class="co">](https://www.codecademy.com/article/f1-u3-git-setup)</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Quarto Guide</span><span class="co">](https://quarto.org/)</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

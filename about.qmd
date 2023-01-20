@@ -3,4 +3,9 @@ title: "About"
 comments: false
 ---
 
-About this site
+
+Essentially, I just made this website to include as many of the template features in the YAML as possible.
+
+So you are free to keep or delete whatever features and make your own website from here.
+
+The main Quarto webpage is also a feature rich website, and so the GitHub repo is good to look at.

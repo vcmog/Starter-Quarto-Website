@@ -47,3 +47,45 @@ in the Yaml causes Quarto to make a '_files' folder mirroring the file/folder wi
 ---
 
 
+To add citations you can type @ reference id, like this @xie2015...
+
+The references, including the id, are stored in a references.bib file.
+
+---
+
+To write in the margin you can make a div like so
+
+``` markdown
+::: {.column-margin}
+
+Stuff you can write in the margin
+
+![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)
+
+:::
+```
+
+::: {.column-margin}
+
+Stuff you can write in the margin
+
+![A margin image](website-tutorial_sam-mcghee-KieCLNzKoBo-unsplash.jpg)
+
+:::
+
+---
+
+I got comments working using [https://www.joelnitta.com/](https://www.joelnitta.com/)'s website.
+
+GitHub here [https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml](https://github.com/joelnitta/joelnitta-home/blob/main/_quarto.yml)
+
+And this is a footnote, or extra bit of content[^1]^[and some inline footnote stuff]
+
+[^1]: Some longer form content
+    
+    which you can put into a footnote
+
+    is that cool?
+
+---
+
