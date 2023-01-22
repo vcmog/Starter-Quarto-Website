@@ -1,0 +1,11 @@
+{
+  "hash": "bbfe643e8342d72fa5e3b60754f9f8cd",
+  "result": {
+    "markdown": "---\ntitle: Personal Projects\ncomments: false\norder: 3\nlisting:\n  contents: 02-03_personal-projects\n  image-height: 200px\n  sort: date desc\n  type: default\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n",
+    "supporting": [
+      "02-03_personal-projects_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

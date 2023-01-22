@@ -1,0 +1,21 @@
+---
+title: Fiction
+comments: false
+listing:
+  contents: 03-02_fiction
+  image-height: 200px
+  sort: date desc
+  type: table
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: true
+page-navigation: true
+---
+
+
+![](fiction__pierre-bamin-RwdBwwAnVB0-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: center;"}
+
+<br>
+

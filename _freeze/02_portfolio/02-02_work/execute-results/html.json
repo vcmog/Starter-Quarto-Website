@@ -1,0 +1,11 @@
+{
+  "hash": "281aa09413a321b4995ed52edfeb8db8",
+  "result": {
+    "markdown": "---\ntitle: Work\ncomments: false\norder: 2\nlisting:\n  contents: 02_02-work\n  image-height: 200px\n  sort: date desc\n  type: default\n  categories: true\n  sort-ui: true\n  filter-ui: true\npage-layout: full\ntitle-block-banner: true\n---\n\n",
+    "supporting": [
+      "02-02_work_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

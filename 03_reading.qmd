@@ -1,0 +1,27 @@
+---
+title: Reading
+listing:
+  id: reading-sub-categories
+  contents:
+    - "03_reading/*.qmd"
+    - "03_reading/*.ipynb"
+  image-height: 200px
+  sort: date desc
+  type: grid
+page-layout: article
+title-block-banner: true
+comments: false
+---
+
+![](reading_kimberly-farmer-lUaaKCUANVI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: top;"}
+
+Here I like to write summaries of things I've read. For future reference and to help me remember them... 
+
+---
+
+::: {#reading-sub-categories}
+:::
+
+---
+
+

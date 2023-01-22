@@ -14,19 +14,19 @@ website:
     pinned: true
     left:
       - text: "Current Work"
-        file: 01-current-work.qmd
+        file: 01_current-work.qmd
       - text: "Portfolio"
-        file: 02-portfolio.qmd
+        file: 02_portfolio.qmd
       - text: "Reading"
-        file: "03-reading.qmd"
+        file: "03_reading.qmd"
       - text: "Tutorials"
-        file: 04-tutorials.qmd
+        file: 04_tutorials.qmd
       - text: "Reference"
-        file: 05-reference.qmd
+        file: 05_reference.qmd
       - text: "Events"
-        file: 06-events.qmd
+        file: 06_events.qmd
       - text: "Blog"
-        file: 07-blog.qmd
+        file: 07_blog.qmd
       - text: Links
         menu:
             - text: "CV / Resume"
@@ -62,18 +62,18 @@ website:
       contents: 
         # - icon: three-dots-vertical
         - text: ""
-          href: 02-portfolio.qmd
+          href: 02_portfolio.qmd
         - "---"
-        - auto: 02-portfolio/*
+        - auto: 02_portfolio/*
           sort: filename
 
     - title: "Reading"
       contents:
         # - "---"
         - text: " "
-          href: 03-reading.qmd
+          href: 03_reading.qmd
         - "---"
-        - auto: 03-reading/*
+        - auto: 03_reading/*
           sort: filename
         # - "---"
         # - section: "03-reading.ipynb"
