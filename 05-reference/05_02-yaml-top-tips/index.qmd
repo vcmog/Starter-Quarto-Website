@@ -7,14 +7,14 @@ categories:
   - document
   - guide
 title-block-banner: true
-jupyter: python3
+# jupyter: python3
 ---
 
 ![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;"}
 
 Took me a while to work out how to style an image :( 
   
-I do it like this now.
+I do it like this now: 
 
 ``` Markdown
 ![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;"}
