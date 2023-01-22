@@ -12,9 +12,15 @@ jupyter: python3
 
 ![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;"}
 
-Try to avoid using HTML code in your markdown, only because Quarto won't read the HTML when it is rendering. And Quarto will only carry through things into the rendered/previewed version if they are read by Quarto.
+Took me a while to work out how to style an image :( 
+  
+I do it like this now.
 
-As an example, I chose to style an image in the markdown, using HTML:
+``` Markdown
+![](top_tips-cj-dayrit-LSKsYHGj4rI-unsplash.jpg){style="height: 300px; width: 100%; object-fit: cover; object-position: 50% 20%;"}
+```
+
+I found that Quarto doesn't seem to translate/process HTML when it is rendering. So if I call the image from inside HTML text like below,
 
 ``` HTML
 <div style=		
@@ -26,9 +32,9 @@ As an example, I chose to style an image in the markdown, using HTML:
 </div>
 ```
 
-but the image was not carried through into the rendered version so failed to display.
+then the image referenced in the HTML was not recognised by Quarto and so wasn't carried through into the rendered HTML version and so it failed to display.
 
-To solve this I called the image in simple markdown, but managed to apply inline CSS styling too.
+To solve this I called the image in simple markdown, but managed to apply CSS styling too. Here it is again
 
 ``` Markdown
 ![](portfolio_diego-ph-fIq0tET6llw-unsplash.jpg){style="height: 400px; width: 100%; object-fit: cover; object-position: center;"}
