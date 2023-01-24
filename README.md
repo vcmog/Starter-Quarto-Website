@@ -60,12 +60,16 @@ In short:
 
 ### Advanced
 
+You can enable comments [https://quarto.org/docs/output-formats/html-basics.html#commenting](https://quarto.org/docs/output-formats/html-basics.html#commenting).
+
+You do so by going into the _quarto.yml file, finding the comments option, and entering the address to your github repo next to it pointing to where your blog lives. You should also have the Giscus app installed in this repo, see [here](https://github.com/apps/giscus).
+
 You can also add javascript into your Quarto webpage, linked through the YAML header, to customise the webpage further. See [here](https://quarto.org/docs/reference/formats/html.html#includes).
 
 ### Useful links
 
-[Setting up Git and GitHub](https://www.codecademy.com/article/f1-u3-git-setup)
 [Quarto Guide](https://quarto.org/)
+[Setting up Git and GitHub](https://www.codecademy.com/article/f1-u3-git-setup)
 
 ### Your Website Link
 

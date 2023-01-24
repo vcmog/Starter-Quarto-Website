@@ -105,12 +105,15 @@ format:
     theme: minty
     css: styles.css
     toc: true
+
+    ## copied the comments code from an online blog guy
+    ## forgot who but here's an example 
+    ## https://github.com/robjhyndman/robjhyndman.com/blob/main/hyndsight/_metadata.yml
     comments:
       giscus:
-        repo: Smule11/Starter-Quarto-Website
-        # repo-id: R_kgDOGZGr3w
+        ## CHANGE THIS TO MAKE WORK 
+        repo: YourGitHubName/Your-Website-Repository-Name
         category: Comments
-        # category-id: DIC_kwDOGZGr384B_-52
         mapping: pathname
         reactions-enabled: false
         input-position: top

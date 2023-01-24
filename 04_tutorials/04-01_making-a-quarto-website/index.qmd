@@ -29,7 +29,7 @@ You can publish this website using GitHub pages, or on other platforms, see [her
 - Having a website where you can showcase yourself and your portfolio makes you stand out to employers (as does being active on GitHub, which writing on this website will make you appear).
 - As alluded to before, there is a small initial learning curve, before the process becomes fast. But the skills required are mainstream and highly useful (e.g. GitHub, Markdown, HTML).
 
-### Quick way to get your own website up and running in 3 minutes two steps!
+### Quick way to get your own website up and running in 3 minutes and 2 steps!
 
 Assuming you have a GitHub account that is:
 
@@ -65,11 +65,21 @@ In short:
 
 ### Advanced
 
+You can enable comments [https://quarto.org/docs/output-formats/html-basics.html#commenting](https://quarto.org/docs/output-formats/html-basics.html#commenting).
+
+You do so by going into the _quarto.yml file, finding the comments option, and entering the address to your github repo next to it pointing to where your blog lives. You should also have the Giscus app installed in this repo, see [here](https://github.com/apps/giscus).
+
 You can also add javascript into your Quarto webpage, linked through the YAML header, to customise the webpage further. See [here](https://quarto.org/docs/reference/formats/html.html#includes).
 
 ### Useful links
 
-[Setting up Git and GitHub](https://www.codecademy.com/article/f1-u3-git-setup)
 [Quarto Guide](https://quarto.org/)
+[Setting up Git and GitHub](https://www.codecademy.com/article/f1-u3-git-setup)
+
+### Your Website Link
+
+GOOD idea to change this link, to have your website URL here for easy access, for others and yourself.
+
+[website URL](website URL)
 
 
