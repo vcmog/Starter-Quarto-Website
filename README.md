@@ -75,4 +75,4 @@ You can also add javascript into your Quarto webpage, linked through the YAML he
 
 GOOD idea to change this link, to have your website URL here for easy access, for others and yourself.
 
-[website URL](website URL)
+[https://vcmog.github.io/Starter-Quarto-Website/](https://vcmog.github.io/Starter-Quarto-Website/)
